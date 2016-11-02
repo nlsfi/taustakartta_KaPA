@@ -4,7 +4,7 @@
 function init() {
 
             //Proj4 is required because OPenLayer 3 does not support EPSG:3067
-            //Config from https://epsg.io/3067
+            //Config from http://epsg.io/3067
             proj4.defs("EPSG:3067","+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs");
 
             //Map limits
@@ -33,10 +33,10 @@ function init() {
 								title: '8000k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_8000k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_8000k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -48,10 +48,10 @@ function init() {
 								title: '4000k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_4000k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_4000k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -63,10 +63,10 @@ function init() {
 								title: '2000k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_2000k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_2000k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -78,10 +78,10 @@ function init() {
 								title: '800k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_800k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_800k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -93,10 +93,10 @@ function init() {
 								title: '320k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_320k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_320k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -108,10 +108,10 @@ function init() {
 								title: '160k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_160k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_160k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -123,10 +123,10 @@ function init() {
 								title: '80k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_80k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_80k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -138,10 +138,10 @@ function init() {
 								title: '40k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_40k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_40k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -153,10 +153,10 @@ function init() {
 								title: '20k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_20k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_20k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver')
@@ -168,10 +168,10 @@ function init() {
 								title: '10k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_10k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_10k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver'),
@@ -183,10 +183,10 @@ function init() {
 								title: '5k_uudistettu',
 
 								source: new ol.source.ImageWMS({
-									url: 'https://avoindata.maanmittauslaitos.fi/geoserver/ows',
+									url: 'http://avoindata.maanmittauslaitos.fi/geoserver/ows',
 									crossOrigin: 'anonymous',
 									params: {
-										'SLD': 'https://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_5k.sld',
+										'SLD': 'http://nlsfi.github.io/taustakartta_KaPA/taustakartta_sld_161028/taustakartta_5k.sld',
 										'FORMAT': 'image/png'
 									},
 									serverType: /** @type {ol.source.wms.ServerType} */ ('geoserver'),
